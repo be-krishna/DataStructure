@@ -11,10 +11,22 @@ struct list
 {
     int a;
     struct list *next;
-} * node1, *node2, *node3, *node4;
+};
 
 int main()
 {
+
+    struct list *node1 = NULL;
+    struct list *node2 = NULL;
+    struct list *node3 = NULL;
+    struct list *node4 = NULL;
+
+    //* Changes
+    node1 = (struct list *)malloc(sizeof(struct list));
+    node2 = (struct list *)malloc(sizeof(struct list));
+    node3 = (struct list *)malloc(sizeof(struct list));
+    node4 = (struct list *)malloc(sizeof(struct list));
+
     system("cls");
 
     printf("\nEnter first value in node: ");
@@ -36,5 +48,3 @@ int main()
 
     return 0;
 }
-
-

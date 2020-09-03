@@ -37,8 +37,8 @@ int main()
     }
 
     //// array_pointer = NULL; //! Set pointer to null in order to reallocate memory
-   // array_pointer = begin_address; //! Or set the pointer to begining
-    
+    array_pointer = begin_address; //! Or set the pointer to begining
+
     // system("cls");
     printf("\nNew Array Size? ");
     scanf("%d", &array_size);
