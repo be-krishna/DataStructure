@@ -38,6 +38,7 @@ void create()
         scanf("%d", &node->n);
         node->next = (struct dlist *)malloc(sizeof(struct dlist));
         node->next->prev = node;
+        node = node->next;
     }
     printf("\nEnter no in DLL: ");
     scanf("%d", &node->n);
@@ -46,16 +47,18 @@ void create()
 
 void display()
 {
+    int i = 0;
     printf("\nList through forwared traversing: ");
     node = start->next;
-    while (node->next != NULL)
+    while (node->next)
     {
         printf("%d", node->n);
         node = node->next;
     }
+
     printf("\n%d", node->n);
     printf("\nList through backward traversing: ");
-    while (node->prev != NULL)
+    while (node->prev)
     {
         printf("\n%d", node->n);
         node = node->prev;
