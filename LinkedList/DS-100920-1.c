@@ -11,7 +11,7 @@ struct slist
 {
     int n;
     struct slist *next;
-} * start, *node, *newnode;
+} * start, *node;
 
 void create();
 void display();

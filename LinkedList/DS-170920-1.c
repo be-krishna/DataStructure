@@ -1,7 +1,7 @@
 /*
-    title: DS-160920-1.c
-    date: 15-September-2020
-    description: Write a program to create a double linked list and traverse them in forward and backward direction 
+    title: DS-170920-1.c
+    date: 17-September-2020
+    description: Write a program to delete the first node from the given double linked list. 
 */
 
 #include <stdio.h>
@@ -15,12 +15,17 @@ struct dlist
 
 void create();
 void display();
+void deleteFirst();
 
 int main()
 {
     system("cls");
+
     create();
     display();
+    deleteFirst();
+    display();
+
     return 0;
 }
 
@@ -32,6 +37,7 @@ void create()
 
     start->next = node;
     node->prev = NULL;
+
     for (i = 1; i < 5; i++)
     {
         printf("\nEnter no in DLL: ");
@@ -47,21 +53,22 @@ void create()
 
 void display()
 {
-    int i = 0;
-    printf("\nList through forward traversing: ");
+    printf("\nList: ");
     node = start->next;
+
     while (node->next)
     {
-        printf("%d", node->n);
+        printf("\n%d", node->n);
         node = node->next;
     }
 
     printf("\n%d", node->n);
-    printf("\nList through backward traversing: ");
-    while (node->prev)
-    {
-        printf("\n%d", node->n);
-        node = node->prev;
-    }
-    printf("\n%d", node->n);
+}
+
+void deleteFirst()
+{
+    node = start->next;
+    start->next = node->next;
+    node->next->prev = NULL;
+    free(node);
 }
