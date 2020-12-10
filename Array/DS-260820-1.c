@@ -9,7 +9,7 @@
 int main()
 {
     int *p, *p1, n, i;
-    system("cls");
+    system("clear");
 
     printf("\nEnter the size of Array: ");
     scanf("%d", &n);

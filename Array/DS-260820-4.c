@@ -10,7 +10,7 @@
 int main()
 {
     int *array, *copy_of_array, array_size, insert_position, insert_item, i;
-    system("cls");
+    system("clear");
 
     printf("\nArray Size? ");
     scanf("%d", &array_size);
@@ -27,7 +27,7 @@ int main()
 
     array = copy_of_array;
 
-    system("cls");
+    system("clear");
 
     printf("\nInsert at position? ");
     scanf("%d", &insert_position);
@@ -47,7 +47,7 @@ int main()
         }
     }
 
-    system("cls");
+    system("clear");
 
     printf("Resultant Array:");
 

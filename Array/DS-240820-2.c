@@ -10,7 +10,7 @@
 int main()
 {
     int *array_pointer, *begin_address, array_size, i;
-    system("cls");
+    system("clear");
 
     printf("\nEnter the Size of Array: ");
     scanf("%d", &array_size);
@@ -25,7 +25,7 @@ int main()
         array_pointer++;
     }
 
-    system("cls");
+    system("clear");
     printf("Contents of the array:");
 
     array_pointer = begin_address; //? set pointer at start of array
@@ -39,7 +39,7 @@ int main()
     //// array_pointer = NULL; //! Set pointer to null in order to reallocate memory
     array_pointer = begin_address; //! Or set the pointer to begining
 
-    // system("cls");
+    // system("clear");
     printf("\nNew Array Size? ");
     scanf("%d", &array_size);
 
@@ -52,7 +52,7 @@ int main()
         scanf("%d", &(*array_pointer));
         array_pointer++;
     }
-    system("cls");
+    system("clear");
     printf("Contents of Array: ");
     array_pointer = begin_address;
 

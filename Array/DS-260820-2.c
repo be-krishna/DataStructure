@@ -10,7 +10,7 @@
 int main()
 {
     int *number_array, *copy_of_array, array_size, number_to_search, i, found = 0;
-    system("cls");
+    system("clear");
 
     printf("\nArray Size? ");
     scanf("%d", &array_size);
@@ -25,7 +25,7 @@ int main()
         number_array++;
     }
 
-    system("cls");
+    system("clear");
 
     number_array = copy_of_array;
 

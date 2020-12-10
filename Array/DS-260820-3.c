@@ -10,7 +10,7 @@
 int main()
 {
     int *array, *copy_of_array, array_size, remove_position, i;
-    system("cls");
+    system("clear");
 
     printf("\nArray Size? ");
     scanf("%d", &array_size);
@@ -27,7 +27,7 @@ int main()
 
     array = copy_of_array;
 
-    system("cls");
+    system("clear");
 
     printf("\nRemove at position? ");
     scanf("%d", &remove_position);
@@ -52,7 +52,7 @@ int main()
         }
     }
 
-    system("cls");
+    system("clear");
 
     printf("Resultant Array:");
 
