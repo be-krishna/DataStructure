@@ -53,7 +53,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     Bank account;
     account.addAccount();

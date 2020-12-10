@@ -24,7 +24,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     Fibo f;
     cout << f.firstn << endl;

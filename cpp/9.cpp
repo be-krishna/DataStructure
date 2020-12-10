@@ -8,7 +8,7 @@ int main()
     char ch;
     ofstream fout("bca");
 
-    system("cls");
+    system("clear");
 
     cout << "\nEnter information about bca: \n";
 

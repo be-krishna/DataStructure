@@ -26,7 +26,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     UnaryOverload obj(10);
 

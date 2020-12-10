@@ -49,7 +49,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     Child child;
     child.Parentfunction();

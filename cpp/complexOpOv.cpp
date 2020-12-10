@@ -44,7 +44,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     Complex num1(10, 20), num2(20, 5);
 

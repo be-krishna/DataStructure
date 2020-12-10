@@ -32,7 +32,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     Armstrong obj;
 

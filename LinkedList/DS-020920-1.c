@@ -27,7 +27,7 @@ int main()
     node3 = (struct list *)malloc(sizeof(struct list));
     node4 = (struct list *)malloc(sizeof(struct list));
 
-    system("cls");
+    system("clear");
 
     printf("\nEnter first value in node: ");
     scanf("%d", &node1->a);
@@ -38,7 +38,7 @@ int main()
     printf("\nEnter first value in node: ");
     scanf("%d", &node4->a);
 
-    system("cls");
+    system("clear");
 
     printf("\nValues of linked list: ");
     printf("\n%d", node1->a);

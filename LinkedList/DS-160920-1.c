@@ -18,7 +18,7 @@ void display();
 
 int main()
 {
-    system("cls");
+    system("clear");
     create();
     display();
     return 0;

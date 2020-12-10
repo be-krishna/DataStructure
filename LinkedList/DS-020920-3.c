@@ -22,7 +22,7 @@ void traverse();
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     create();
     traverse();
@@ -31,7 +31,7 @@ int main()
 }
 
 void create()
-{   
+{
     char ch = 'y';
     node = (struct slist *)malloc(sizeof(struct slist));
     start = node;
@@ -47,7 +47,7 @@ void create()
 
         node->next = NULL;
 
-        printf("\nContinue (y/n): ");   
+        printf("\nContinue (y/n): ");
         scanf("%c", &ch);
     }
 }

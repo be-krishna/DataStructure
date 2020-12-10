@@ -22,14 +22,14 @@ public:
     ~Obj()
     {
         cout << "Clearing Screen.";
-        system("cls");
+        system("clear");
         cout << "Screen Cleared.";
     }
 };
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     Obj obj1(10), obj2(20);
     Obj obj3(obj1, obj2);

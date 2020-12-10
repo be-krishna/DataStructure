@@ -19,7 +19,7 @@ void insertfirst();
 
 int main()
 {
-    system("cls");
+    system("clear");
     create();
 
     printf("\nList before insertion: ");

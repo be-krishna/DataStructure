@@ -29,7 +29,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     Vehicle *v;
 
@@ -37,6 +37,5 @@ int main()
     threeWheeler three;
 
     
-
     cout << endl;
 }

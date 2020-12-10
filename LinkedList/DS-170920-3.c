@@ -19,7 +19,7 @@ void insertatposition();
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     create();
     display();

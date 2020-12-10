@@ -51,7 +51,7 @@ void function(String string)
 
 int main()
 {
-    system("cls");
+    system("clear");
     String s1;
     s1.entery();
     s1.reverse();
@@ -60,6 +60,5 @@ int main()
     function(s1);
 
     
-
     cout << endl;
 }

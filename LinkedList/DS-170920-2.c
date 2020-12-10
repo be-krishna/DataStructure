@@ -19,7 +19,7 @@ void deleteLast();
 
 int main()
 {
-    system("cls");
+    system("clear");
 
     create();
     display();

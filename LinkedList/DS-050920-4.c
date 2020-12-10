@@ -19,7 +19,7 @@ void insertbyinfo();
 
 int main()
 {
-    // system("cls");
+    // system("clear");
 
     create();
 

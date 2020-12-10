@@ -22,7 +22,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
     Uover u(10);
 
     ++u;

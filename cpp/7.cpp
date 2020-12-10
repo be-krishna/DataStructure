@@ -5,7 +5,7 @@ int main()
 {
     char line[80], ch;
     int i = 0;
-    system("cls");
+    system("clear");
     cout << "\nEnter a sentence: ";
     while ((ch = cin.get()) != EOF) //use ctrl + z to break
     {

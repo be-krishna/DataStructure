@@ -11,7 +11,7 @@ struct slist
 {
     int n;
     struct slist *next;
-} *node, *start, *newnode;
+} * node, *start, *newnode;
 
 void create();
 void display();
@@ -19,13 +19,13 @@ void insertlast();
 
 int main(void)
 {
-    system("cls");
+    system("clear");
 
     create();
     printf("\nList before insertion: ");
-    
+
     display();
-    
+
     insertlast();
     printf("\nList after insertion ");
 

@@ -25,7 +25,7 @@ public:
 
 int main()
 {
-    system("cls");
+    system("clear");
     BinaryOverload obj1(5), obj2(10), obj3(0);
 
     obj1.show();
