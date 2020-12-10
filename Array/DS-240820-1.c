@@ -6,14 +6,14 @@ description:  Write a program in C to create an array and traverse them.
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
+// #include <conio.h>
 
 void create(int a[], int n);
 
 int main()
 {
     int a[10], i;
-    system("cls");
+    system("clear");
 
     for (i = 0; i < 10; i++)
     {
@@ -22,7 +22,7 @@ int main()
     }
 
     create(a, 10);
-    getch();
+    // getch();
 
     return 0;
 }
