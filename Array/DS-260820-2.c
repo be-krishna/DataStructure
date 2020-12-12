@@ -1,7 +1,7 @@
 /*
     title: DS-260820-2.c
     date: 26-August-2020
-    description: Write a program to search a particular number in dynamic array. 
+    ? description: Write a program to search a particular number in dynamic array. 
 */
 
 #include <stdio.h>

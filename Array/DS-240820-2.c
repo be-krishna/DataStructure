@@ -1,7 +1,8 @@
 /*
     title: DS-240820-2.c
     date: 29-August-2020
-    ? description: Write a program to create a dynamic array_pointer and illustrate the increment and decrement of memory at runtime.1 
+    ? Description: Write a program to create a dynamic array_pointer 
+    ? and illustrate the increment and decrement of memory at runtime.
 */
 
 #include <stdio.h>
