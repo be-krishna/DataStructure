@@ -1,7 +1,7 @@
 /*
     title: DS-020920-2.c
     date: 02-September-2020
-    description: Write a program to input 4 values in linked list and print them 
+    ? description: Write a program to input 4 values in linked list and print them 
 */
 
 #include <stdio.h>

@@ -1,7 +1,7 @@
 /*
     title: DS-020920-3.c
     date: 03-September-2020
-    description: Write a program to input any numbers of value until user wants in a single linked list and print them perform these operation through user defined function. 
+    ? description: Write a program to input any numbers of value until user wants in a single linked list and print them perform these operation through user defined function. 
 */
 
 #include <stdio.h>

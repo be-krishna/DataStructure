@@ -1,7 +1,7 @@
 /*
     title: DS-160920-1.c
     date: 15-September-2020
-    description: Write a program to create a double linked list and traverse them in forward and backward direction 
+    ? description: Write a program to create a double linked list and traverse them in forward and backward direction 
 */
 
 #include <stdio.h>
@@ -52,16 +52,19 @@ void display()
     node = start->next;
     while (node->next)
     {
-        printf("%d", node->n);
+        printf("%d \n", node->n);
         node = node->next;
     }
 
     printf("\n%d", node->n);
     printf("\nList through backward traversing: ");
+
+
     while (node->prev)
     {
-        printf("\n%d", node->n);
+        printf("%d \n", node->n);
         node = node->prev;
     }
-    printf("\n%d", node->n);
+    printf("%d\n", node->n);
+    // printf("\n%d", node->n);
 }

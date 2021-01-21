@@ -1,7 +1,7 @@
 /*
     title: DS-050920-4.c
     date: 08-September-2020
-    description: Write a program to create a single linked list and insert a node as a desired node on the basis of informationo. 
+    ? description: Write a program to create a single linked list and insert a node as a desired node on the basis of informationo. 
 */
 
 #include <stdio.h>

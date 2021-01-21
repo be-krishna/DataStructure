@@ -1,7 +1,7 @@
 /*
     title: DS-050920-1.c
     date: 05-September-2020
-    description: Write a program to create a single linked list and insert a node as a first node. 
+    ? description: Write a program to create a single linked list and insert a node as a first node. 
 */
 
 #include <stdio.h>

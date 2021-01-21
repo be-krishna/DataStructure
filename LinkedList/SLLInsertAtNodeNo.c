@@ -1,7 +1,7 @@
 /*
     title: DS-050920-3.c
     date: 08-September-2020
-    description: Write a program to create a single linked list and insert a node as a desired node on the basis of node number. 
+    ? description: Write a program to create a single linked list and insert a node as a desired node on the basis of node number. 
 */
 
 #include <stdio.h>

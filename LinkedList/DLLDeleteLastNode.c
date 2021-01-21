@@ -1,7 +1,7 @@
 /*
     title: DS-170920-1.c
     date: 17-September-2020
-    description: Write a program to delete the last node from the given double linked list. 
+    ? description: Write a program to delete the last node from the given double linked list. 
 */
 
 #include <stdio.h>

@@ -1,7 +1,7 @@
 /*
     title: DS-100920-1.c
     date: 10-September-2020
-    description: Write a program to delete the first node from the given list 
+    ? description: Write a program to delete the first node from the given list 
 */
 
 #include <stdio.h>

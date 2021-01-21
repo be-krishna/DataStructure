@@ -1,7 +1,7 @@
 /*
     title: DS-170920-3.c
     date: 17-September-2020
-    ? description: Write a program to insert a node at desired position in double linked list 
+    ? description: Write a program to insert a node on the basis of information in double linked list 
 */
 
 #include <stdio.h>
@@ -36,9 +36,11 @@ void addNode(int data)
     }
 }
 
-void display(){
+void display()
+{
     struct node *current = head;
-    if(head == NULL){
+    if (head == NULL)
+    {
         printf("List is empty!\n");
         return;
     }
@@ -50,10 +52,9 @@ void display(){
         printf("%d\n", current->data);
         current = current->next;
     }
-    
 }
 
-void insertAtPosition(int position, int data)
+void insertByInformation(int value, int data)
 {
     int i = 1;
     struct node *current = head;
@@ -66,7 +67,7 @@ void insertAtPosition(int position, int data)
         return;
     }
 
-    while (i < (position -1))
+    while (current->data != value)
     {
         current = current->next;
         i++;
@@ -75,10 +76,10 @@ void insertAtPosition(int position, int data)
     newNode->prev = current;
     newNode->next = current->next;
     current->next = newNode;
-    
 }
 
-int main(){
+int main()
+{
     addNode(1);
     addNode(2);
     addNode(3);
@@ -86,7 +87,7 @@ int main(){
 
     display();
 
-    insertAtPosition(4, 10);
+    insertByInformation(2, 10);
 
     display();
 }

@@ -1,7 +1,7 @@
 /*
     title: DS-050920-2.c
     date: 06-September-2020
-    description: write a program to insert a node as a last node in single linked list 
+    ? description: write a program to insert a node as a last node in single linked list 
 */
 
 #include <stdio.h>

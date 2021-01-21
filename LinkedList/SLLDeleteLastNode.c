@@ -1,7 +1,7 @@
 /*
     title: DS-100920-2.c
     date: 10-September-2020
-    description: Write a program to delete the last node from the given list 
+    ? description: Write a program to delete the last node from the given list 
 */
 
 #include <stdio.h>

@@ -1,7 +1,7 @@
 /*
     title: DS-010920-1.c
     date: 01-September-2020
-    description: Write a program to create a linked list having 4 nodes and print them 
+    ? description: Write a program to create a linked list having 4 nodes and print them 
 */
 
 #include <stdio.h>
