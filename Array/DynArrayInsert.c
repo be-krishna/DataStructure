@@ -1,7 +1,7 @@
 /*
     title: DS-260820-4.c
     date: 26-August-2020
-    description: Write a program to insert a particular number at given position in dynamic array. 
+    ? description: Write a program to insert a particular number at given position in dynamic array. 
 */
 
 #include <stdio.h>

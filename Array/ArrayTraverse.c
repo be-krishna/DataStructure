@@ -1,7 +1,7 @@
 /*
 title: DS-240820-1.c
 date: 24-08-2020
-description:  Write a program in C to create an array and traverse them.
+? description:  Write a program in C to create an array and traverse them.
 */
 
 #include <stdio.h>

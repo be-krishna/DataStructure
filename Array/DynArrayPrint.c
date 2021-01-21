@@ -1,7 +1,7 @@
 /*
     title: DS-260820-1.c
     date: 26-August-2020
-    description: Write a program to create a dynamic array and print all the data 
+    ? description: Write a program to create a dynamic array and print all the data 
 */
 #include <stdio.h>
 #include <stdlib.h>
