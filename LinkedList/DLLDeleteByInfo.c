@@ -1,7 +1,7 @@
 /*
-    title: DS-170920-3.c
-    date: 17-September-2020
-    ? description: Write a program to insert a node on the basis of information in double linked list 
+    title: DLLDeleteByInfo.c
+    date: 22-January-2021
+    ? description: Write a program to delete a node from the double linked list on the basis of info. 
 */
 
 #include <stdio.h>
@@ -45,48 +45,51 @@ void display()
         return;
     }
 
-    printf("Node values: \n");
+    printf("Nodes of doubly linked list: \n");
 
     while (current != NULL)
     {
-        printf("%d\n", current->data);
+        printf("%d \n", current->data);
         current = current->next;
     }
 }
 
-void insertByInformation(int value, int data)
+void deleteByValue(int value)
 {
-
     struct node *current = head;
-    struct node *newNode = (struct node *)malloc(sizeof(struct node));
-    newNode->data = data;
 
     if (head == NULL)
     {
         printf("List is empty!\n");
         return;
     }
+    int i = 1;
 
     while (current->data != value)
     {
         current = current->next;
     }
 
-    newNode->prev = current;
-    newNode->next = current->next;
-    current->next = newNode;
+    current->prev->next = current->next;
+    current->next->prev = current->prev;
+
+    free(current);
 }
 
 int main()
 {
+    system("clear");
+
     addNode(1);
     addNode(2);
     addNode(3);
-    addNode(4);
+    addNode(10);
 
     display();
 
-    insertByInformation(2, 10);
+    deleteByValue(3);
 
     display();
+
+    return 0;
 }

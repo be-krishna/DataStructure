@@ -7,10 +7,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct dlist
+struct node
 {
     int n;
-    struct dlist *next, *prev;
+    struct node *next, *prev;
 } * start, *node;
 
 void create();
@@ -32,8 +32,8 @@ int main()
 void create()
 {
     int i;
-    node = (struct dlist *)malloc(sizeof(struct dlist));
-    start = (struct dlist *)malloc(sizeof(struct dlist));
+    node = (struct node *)malloc(sizeof(struct node));
+    start = (struct node *)malloc(sizeof(struct node));
 
     start->next = node;
     node->prev = NULL;
@@ -42,7 +42,7 @@ void create()
     {
         printf("\nEnter no in DLL: ");
         scanf("%d", &node->n);
-        node->next = (struct dlist *)malloc(sizeof(struct dlist));
+        node->next = (struct node *)malloc(sizeof(struct node));
         node->next->prev = node;
         node = node->next;
     }
